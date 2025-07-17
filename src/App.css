@@ -1,0 +1,77 @@
+.container {
+  max-width: 1380px;
+  margin: 0 auto;
+  padding: 2rem 2rem ;
+  padding-bottom: 0;
+  text-align: center;
+}
+.layout{
+  background-image:url('../src/assets/light-patten.svg');
+}
+.notFound {
+  min-height: 100vh ;
+}
+
+ .footer{
+
+  width: 100vw; /* ياخذ عرض الشاشة بالكامل */
+  margin: 0; /* إزالة أي هوامش */
+  padding: 1rem 0; /* ممكن تعدل البادينج حسب الحاجة */
+  background-color: #f1f5f9;
+  max-width: 100% !important;
+  text-align: left;
+  
+}
+.products{
+  min-height: 100vh ;
+}
+.loadingProducts{
+  min-height: 100vh ;
+}
+.notFound{
+  min-height: 100vh;
+}
+.cart{
+  min-height: 100vh;
+}
+.orders{
+  min-height: 100vh;
+}
+.orders{
+  min-height: 100vh;
+}
+.brands{
+  min-height: 100vh;
+}
+.categories{
+  min-height: 100vh;
+}
+.wishlist{
+  min-height: 100vh;
+}
+.ProductDetails{
+  min-height: 100vh;
+}
+
+.footerInput:focus{
+  border: 2px solid rgb(38, 137, 38);
+  outline: none;
+}
+.footerInput::placeholder{
+ font-weight: 400;
+ padding-left: 10px;
+}
+
+
+.fa-spinner {
+  animation: fa-spin 1s infinite linear !important;
+}
+
+@keyframes fa-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
