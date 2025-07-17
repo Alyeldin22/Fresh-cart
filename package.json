@@ -2,7 +2,7 @@
   "name": "final_project",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Mohammed-Raafatt.github.io/FreshCart",
+  "homepage": "https://Alyeldin22.github.io/Fresh-cart",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
