@@ -39,7 +39,7 @@ export default function Footer() {
               
             </div>
             <hr  className='my-4 border border-gray-500 border-opacity-50'/>
-            <h2 className='mt-8 pb-5 text-center md:text-left'>© 2025 FreshCart All Rights Reserved By <span onClick={()=>{myGitHub()}} className='text-emerald-500 text-xl '>Aly Eldin El Nawam <i className="cursor-pointer fa-brands text-black text-lg fa-github"></i></span></h2>
+            <h2 className='mt-8 pb-5 text-center md:text-left'>© 2025 FreshCart All Rights Reserved By <span onClick={()=>{myGitHub()}} className='text-emerald-500 text-xl '>Aly Eldin El Nawam   <i className="cursor-pointer fa-brands text-black text-lg fa-github"></i></span></h2>
           </nav>
          </>
 }
